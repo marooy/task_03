@@ -5,6 +5,18 @@
         <title>List</title>
     </head>
     <body>
+    	{% for x in my_list %}
+
+
+    	 <p>Resturent name is <span style="font-weight: strong">{{x.restaurant_name}}</span> It serve
+    	 <span style="font-weight: strong">{{x.food_type}}</span>  </p>
+    	 <br>
+
+    	
+
+
+    	{% endfor %}
+    	
 
     </body>
 </html>
